@@ -45,9 +45,9 @@ brightness-=10;
 
 }
 void smart_light::displaystatus(){
-    cout<<brand;
-    cout<<brightness;
-    cout<<ison;
+    cout<<"brand:"<<brand<<endl;
+    cout<<"brightness:"<<brightness<<endl;
+    cout<<"ison"<<ison<<endl;
 }
 int main(){
     smart_light s1;
